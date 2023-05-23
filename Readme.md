@@ -1,23 +1,23 @@
 <div align="center">
 
 # T3D GN Presets
-##  A Collection of Incredibly useful nodes for Geometry Nodes - Blender 3.6 LTS (Beta)
+##  几何节点非常有用的节点集合 - Blender 3.6 LTS（测试版）
 ![T3D GN Presets](https://user-images.githubusercontent.com/106262964/234839626-d88f0ce9-2399-4193-9940-2257bc728351.png)
 
 <br>
 </div>
 
-# 💡 Introduction:
+# 💡 介绍:
 
 * [T3D GN Presets](https://github.com/Tams3d/T3D-GN-Presets/) contains Node groups for Geometry Nodes which include Deformers, Fields, SDF, UV, Utilities and much more for **free!**
 * This is an essential component of an artist’s toolkit which enables users to combine multiple nodes with endless possibilities in non-destructive workflows with existing Blender tools.
 
-# 🪄 Release Notes:
+# 🪄 发行说明:
 
 - **T3D-GN-Presets (v1.3.0)** to be released on 27.06.2023
 - Download stable version for Blender 3.5 & below [here](https://github.com/Tams3d/T3D-GN-Presets/releases)    
 
-# ⚙️ Core:
+# ⚙️ 核心:
 
 ## Source Files
 - Removed unnecessary code comments, empty lines and spaces [(0d4126a)](https://github.com/Tams3d/T3D-GN-Presets/commit/0d4126a9272584c5f80e585ce6ace9d085e8bce2)
@@ -25,7 +25,7 @@
 - Removed Exif data from images, solves empty Icon issue
 - Solved conflicts with other addons [(3a45e95)](https://github.com/Tams3d/T3D-GN-Presets/commit/3a45e95160c7debb92531a1a297737428bc5e6ed)
 
-## Nodes
+## 节点
 - Nodes are rearranged based on usability with separations. Tooltips are made mandatory for all nodes.
 - Support for NURBS in all curve nodes
 - Fixed implicit issues with nodes [(c7acb1c)](https://github.com/Tams3d/T3D-GN-Presets/commit/c7acb1c97e18864f473bb6a37d39b4d48f8beac3)
