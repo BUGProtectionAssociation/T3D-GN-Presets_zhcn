@@ -9,7 +9,7 @@
 
 # 💡 介绍:
 
-* [T3D GN Presets](https://github.com/Tams3d/T3D-GN-Presets/) contains Node groups for Geometry Nodes which include Deformers, Fields, SDF, UV, Utilities and much more for **free!**
+* [T3D GN Presets](https://github.com/Tams3d/T3D-GN-Presets/#t3d-gn-presets) contains Node groups for Geometry Nodes which include Deformers, Fields, SDF, UV, Utilities and much more for **free!**
 * This is an essential component of an artist’s toolkit which enables users to combine multiple nodes with endless possibilities in non-destructive workflows with existing Blender tools.
 
 # 🪄 发行说明:
@@ -23,7 +23,7 @@
 - Removed unnecessary code comments, empty lines and spaces [(0d4126a)](https://github.com/Tams3d/T3D-GN-Presets/commit/0d4126a9272584c5f80e585ce6ace9d085e8bce2)
 - Optimised all icons for Deformers. **Displacer** and **Smooth Geometry** are now assets. Filled necessary informations [(42fdcbc)](https://github.com/Tams3d/T3D-GN-Presets/commit/42fdcbce5ce1547c0f42f93cfab3eb0191b9b14c)
 - Removed Exif data from images, solves empty Icon issue
-- Solved conflicts with other addons [(3a45e95)](https://github.com/Tams3d/T3D-GN-Presets/commit/3a45e95160c7debb92531a1a297737428bc5e6ed)
+- Solved conflicts with other addons [(2c3d3ef)](https://github.com/Tams3d/T3D-GN-Presets/commit/2c3d3efa1246f0d100e06de502565210bc7135af)
 
 ## 节点
 - Nodes are rearranged based on usability with separations. Tooltips are made mandatory for all nodes.
@@ -33,11 +33,11 @@
   - Maintain consistency in input and output names
 
 ## 🪅 Performance:
-- Nodes with Store Named Attribute are slightly faster and memory efficient [(b54398c16c)](https://projects.blender.org/blender/blender/commit/b54398c16cfee14a054e2c3ec82d091b34c79a34)
+- Nodes with Store Named Attribute and Delete Geometry are slightly faster
 - Assets are now loaded faster, saves upto 10 mb [(42fdcbc)](https://github.com/Tams3d/T3D-GN-Presets/commit/42fdcbce5ce1547c0f42f93cfab3eb0191b9b14c)
 - Fixed overhead with **UV To Mesh** and **UV Project** with high poly mesh
 - Removed internal dependencies in **Sweep Curve** 
-- All curve primitives are made to use Curve Circle or Arc as default. Removes Resample Curve computation
+- All curve primitives are made to use Curve Circle or Arc as default. Removes Resample Curve computations
 - `Deformers` work up to 35% faster and more stable.
 # 🎉 New Nodes, Features & Changes:
 
@@ -54,7 +54,8 @@
 
 ## 🎆 New Features & Changes:
 
-- **Rotate Elements** now supports Edges
+- **Set Geometry Size** supports direct plugging of instances (realised internally)
+- Optimised **Center Elements**, uses Bound Center by default [(8f59586)](https://github.com/Tams3d/T3D-GN-Presets/commit/8f595860f309cf65c93bbe2c515f10a62a4dc1a9)
 - Renamed **Linear Instancer** inputs same as **Mesh Line**
   - Start >>> **Start Location**
   - End >>> **Offset**
@@ -102,13 +103,13 @@
 - Removed **Empty Group** and **Renamed Named Attribute**
 - Removed **Spiroshell** due to its instability
 - Removed **Select Index Range** 
+- Removed **Rotate Elements**
 - Breaks backward compatibility in **Vertex Slide**. **Index of Nearest** does not support offsetting, _Nearest Index_ is removed.
 - Removal of _Generate UV_ in **UV To Mesh** 
 
 # 🎯 Development
-- Developments are happening locally regularly regarding bug fixes, and support for every upcoming [Blender](https://www.blender.org/) release.
-- Documentation is currently in **_work-in-progress_**
-- Supports **Blender 4.0** without any issues. 
+- Developments are happening locally regularly regarding bug fixes, and support for every upcoming [Blender Release](https://www.blender.org/download/releases/)
+- Documentation is currently in **_work-in-progress_**, will be launched along with **v1.3.0 for Blender 4.0**
 
 ## 👻 Bug Reports
 - Bug reports are always welcomed in the form of reports or suggestions.
@@ -117,7 +118,7 @@
 
 # Licencing & Files:
 ## 📄 Licence
-- The Node groups, including the Addon, are licensed as [GNU GPL](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/LICENSE)
+- The Node groups, including the Addon, are licensed as [GNU GPL](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/LICENSE.txt)
   * You are free for any purpose
   * You are free to distribute unless the license is modified
   * You can distribute changed versions
@@ -127,7 +128,7 @@
 ## 📂 Access to Files:
 - [ `_init_.py` ](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/__init__.py) defines the addon followed by [geonode_groups.json](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/geonode_groups.json) which contains a list of categories with nodes.
 - [geonode_nodes.blend](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/geonode_nodes.blend) contains all the Node-groups which are displayed under `T3D GN Presets`
-- **All Files & Assets** follow the same [Licence](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/README.md#licencing--files)
+- **All Files & Assets** follow the same [Licence](https://github.com/Tams3d/T3D-GN-Presets/blob/Master/LICENSE.txt)
 
 # 🦄 About 
   - Hey! I am **Tamil Selvan**, also known as **tams_3d**. I am a 16-Year-Old Self Taught Blender Artist from **India**

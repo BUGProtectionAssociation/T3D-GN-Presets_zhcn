@@ -1,21 +1,21 @@
 {
-    " Curve ": [
+    " Curve": [
         "^ Operators",
         "_",
         "Extend Curve ~ Entend endpoints of Curve along Tangent",
         "Lathe Curve ~ Mesh from Curve by rotating points around a fixed circular axis",
         "Sweep Curve ~ Mesh from Profile Curve with even thickness",
         "_",
-        "Align To Spline ~ Align Geometry to Spline with position offsets"
+        "Align To Spline ~ Align Geometry to Spline with tangential orientation"
     ],
 
-    " Curve Primitives ": [
+    " Curve Primitives": [
         "Curve Ellipse ~ Curve Primitive",
         "Logarithmic Spiral ~ Curve Primitive",
         "Spirograph ~ Curve Primitive"
     ],
 
-    " Deformers ": [
+    " Deformers": [
         "^ Geometry",
         "_",
         "Bend ~ Bend along specified axis",
@@ -31,7 +31,7 @@
         "Spherify ~ Deform Mesh to a sphere (Similar to edit mode 'To Sphere')"
     ],
 
-    " Easing ": [
+    " Easing": [
         "easeSine ~ Easing In and Out",
         "easeQuad ~ Easing In and Out",
         "easeCubic ~ Easing In and Out",
@@ -42,7 +42,7 @@
         "easeElastic ~ Easing In and Out"
     ],
 
-    " Fields ": [
+    " Fields": [
         "Box Field ~ Cubical Falloff",
         "Cylinder Field ~ Cylindrical Falloff",
         "Linear Field ~ Gradient Falloff",
@@ -51,7 +51,7 @@
         "Torus Field ~ Torus Falloff"
     ],
 
-    " Geometry ": [
+    " Geometry": [
         "Center Elements ~ Reset Location to Worldspace Coordinates",
         "Parent To Object ~ Parent Location, Rotation, Scale to Object",
         "_",
@@ -61,7 +61,7 @@
         "Geometry To Spline ~ Convert any input Geometry to Spline"
     ],
 
-    " Input ": [
+    " Input": [
         "^ Selection",
         "_",
         "Boundary Edge Selection ~ Selection of all edges with one neighbouring face ",
@@ -85,23 +85,19 @@
         "Island Center ~ Outputs individual Mesh Island center"
     ],
 
-    " Instancers ": [
+    " Instancers": [
         "Grid Instancer ~ Instance along X,Y,Z Axis",
         "Linear Instancer ~ Instance along Straight Line",
         "Radial Instancer ~ Instance along Arc",
         "Spherical Instancer ~ Instance on Spherical Spiral"
     ],
 
-    " Mesh ": [
-        "^ Transformation",
-        "_",
-        "Rotate Elements ~ Rotate at Individual Origin",
-        "Shade Auto Smooth ~ Edge Split over unsigned angles of degree",
-        "_",
+    " Mesh": [
         "^ Topology",
         "_",
-        "Segmental Extrude ~ Repeated Extrusion of segments",
         "Match Topology ~ Transforms Mesh by Topology",
+        "Shade Auto Smooth ~ Edge Split over unsigned angles of degree",
+        "Segmental Extrude ~ Repeated Extrusion of segments",
         "Simple Decimate ~ Merge Faces by distance by proximate points",
         "Vertex Slide ~ Move vertices based on index",
         "_",
@@ -117,13 +113,13 @@
         "Mesh To SDF ~ Mesh to Signed Distance Function"
     ],
 
-    " Point Primitives ": [
+    " Point Primitives": [
         "Point Grid ~ Point Primitive with Points over XYZ Directions with spacing",
         "Point Honeycomb ~ Point Primitive with Points offset over X & Y to form Honeycomb-like structure",
         "Phyllotaxis ~ Point Primitive like arrangement of leaves on a plant stem"
     ],
 
-    " SDF ":  [
+    " SDF":  [
         "^ Primitives",
         "_",
         "SDF Box ~ SDF Primitive Box",
@@ -137,7 +133,7 @@
         "SDF Displacement ~ Displacer for SDF"
     ],
 
-    " UV ": [
+    " UV": [
         "^ Deform Mesh with UV",
         "_",
         "UV Deform ~ Deform Mesh by another mesh's UV",
@@ -154,7 +150,7 @@
 
     ],
 
-    " Vector ": [
+    " Vector": [
         "^ Coordinates",
         "_",
         "Cartesian to Cylindrical ~ Cartesian to Cylindrical ",
@@ -166,11 +162,8 @@
         "_",
         "Replace Vector ~ Replace specific Values in X,Y,Z",
         "Seamless Vector ~ Make 4D Texture Seamless",
-        "Vector Clamp ~ Clamp Vector Min and Max",
-        "_",
-        "^ Transformation",
-        "_",
         "Transform Position ~ Transform Location, Rotation, Scale of Position",
+        "Vector Clamp ~ Clamp Vector Min and Max",
         "Vector Mapping ~ Control Location, Rotation, Scale of a Vector"
     ]
 }
